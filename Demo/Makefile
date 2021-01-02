@@ -6,6 +6,8 @@
 # Constant Variable definition
 #---------------------------------------------------------------------------
 
+TOPDIR=..
+
 ifeq ($(COMPILER_OS_CYGWIN),1)
 TOPDIR=..
 endif
